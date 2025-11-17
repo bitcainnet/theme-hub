@@ -1,0 +1,14 @@
+{
+  "name": "@theme-hub/cli",
+  "version": "0.1.0",
+  "description": "Command-line helper for syncing themes from Theme Hub",
+  "type": "module",
+  "scripts": {
+    "sync": "node src/cli.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "yargs": "^17.7.2"
+  },
+  "license": "MIT"
+}

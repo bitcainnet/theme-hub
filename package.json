@@ -1,0 +1,19 @@
+{
+  "name": "theme-hub",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Centralized cross-platform theme distribution and sync hub",
+  "workspaces": [
+    "server",
+    "web",
+    "cli"
+  ],
+  "scripts": {
+    "setup": "npm install",
+    "start": "npm run start:server",
+    "start:server": "cd server && npm run dev",
+    "start:web": "cd web && npm run dev",
+    "lint": "npm run --workspaces lint"
+  },
+  "license": "MIT"
+}
