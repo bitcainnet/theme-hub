@@ -471,7 +471,7 @@ export const ExampleUsage: React.FC = () => {
   const [toasts, setToasts] = React.useState<Array<{ id: string; message: string; type: ToastProps['type'] }>>([]);
 
   const addToast = (message: string, type: ToastProps['type'] = 'info') => {
-    const id = Math.random().toString(36).substr(2, 9);
+    const id = Math.random().toString(36).slice(2, 11);
     setToasts((prev) => [...prev, { id, message, type }]);
   };
 
