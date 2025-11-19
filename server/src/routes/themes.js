@@ -14,6 +14,8 @@ const syncSchema = z.object({
 });
 
 // Helper function to extract category from theme ID
+// TODO: Consider moving categoryMap to themes data file or adding category field to theme objects
+// This would reduce maintenance burden when adding new themes
 const getThemeCategory = (themeId) => {
   const categoryMap = {
     // Dark Themes
