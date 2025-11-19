@@ -1005,12 +1005,12 @@ Perfect for:
 
 ### By Brand Personality
 
-**Luxury**: rose-gold, mythic-gold, art-deco, royal-castle, sapphire
+**Luxury**: mythic-gold, art-deco, royal-castle, holy-paladin
 **Playful**: bubblegum, tie-dye, rainbow, pixel-art, pop-art
-**Professional**: corporate-blue, executive, slate-professional, manhattan
-**Energetic**: electric, power-up, supernova, victory-gold, solar-flare
+**Professional**: manhattan, pearl, daylight
+**Energetic**: power-up, supernova, victory-gold, solar-flare
 **Calming**: zen-garden, meditation, foggy-morning, spa-retreat, bamboo-forest
-**Bold**: neon-nights, arena, graffiti, vaporwave, dragon-fire
+**Bold**: neon-tokyo, arena, graffiti, dragon-fire
 **Elegant**: pearl, renaissance, classical-symphony, paris-cafe, venice-canal
 **Modern**: chrome, minimalism, ai-core, quantum, blueprint
 
