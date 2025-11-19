@@ -1,3 +1,164 @@
+// Category mapping for all themes
+export const themeCategories = {
+  // Dark Themes
+  'midnight': 'dark',
+  'obsidian': 'dark',
+  'charcoal': 'dark',
+  'deep-ocean': 'dark',
+  'void': 'dark',
+  'noir': 'dark',
+
+  // Light Themes
+  'daylight': 'light',
+  'pearl': 'light',
+  'cloud': 'light',
+  'paper': 'light',
+  'vanilla': 'light',
+  'snow': 'light',
+
+  // Space & Astronomy
+  'nebula': 'space',
+  'supernova': 'space',
+  'galaxy': 'space',
+  'mars': 'space',
+  'lunar': 'space',
+  'stellar': 'space',
+  'cosmic-dust': 'space',
+  'black-hole': 'space',
+  'andromeda': 'space',
+  'solar-flare': 'space',
+
+  // Gaming & Esports
+  'esports-purple': 'gaming',
+  'victory-gold': 'gaming',
+  'arena': 'gaming',
+  'pixel-art': 'gaming',
+  'power-up': 'gaming',
+  'boss-battle': 'gaming',
+  'speedrun': 'gaming',
+  'achievement': 'gaming',
+
+  // Food & Beverage
+  'matcha': 'food',
+  'espresso': 'food',
+  'blueberry': 'food',
+  'strawberry': 'food',
+  'lime': 'food',
+  'chocolate': 'food',
+  'bubblegum': 'food',
+  'mojito': 'food',
+
+  // Art Movements
+  'impressionist': 'art',
+  'pop-art': 'art',
+  'art-deco': 'art',
+  'abstract': 'art',
+  'renaissance': 'art',
+  'minimalism': 'art',
+  'cubism': 'art',
+  'surrealism': 'art',
+
+  // Cities & Destinations
+  'tokyo-nights': 'cities',
+  'paris-cafe': 'cities',
+  'sahara-sunset': 'cities',
+  'nordic-frost': 'cities',
+  'bali-beach': 'cities',
+  'manhattan': 'cities',
+  'santorini': 'cities',
+  'moroccan-spice': 'cities',
+  'venice-canal': 'cities',
+  'iceland': 'cities',
+
+  // Music Genres
+  'jazz-club': 'music',
+  'rock-concert': 'music',
+  'classical-symphony': 'music',
+  'edm-rave': 'music',
+  'reggae-vibes': 'music',
+  'lofi-chill': 'music',
+  'hip-hop': 'music',
+  'blues': 'music',
+
+  // Weather & Climate
+  'thunderstorm': 'weather',
+  'rainbow': 'weather',
+  'foggy-morning': 'weather',
+  'sunny-day': 'weather',
+  'northern-lights': 'weather',
+  'hurricane': 'weather',
+  'drought': 'weather',
+  'blizzard': 'weather',
+
+  // Fantasy & RPG
+  'dragon-fire': 'fantasy',
+  'elven-forest': 'fantasy',
+  'wizard-tower': 'fantasy',
+  'dark-dungeon': 'fantasy',
+  'holy-paladin': 'fantasy',
+  'necromancer': 'fantasy',
+  'enchanted-crystal': 'fantasy',
+  'royal-castle': 'fantasy',
+  'shadow-realm': 'fantasy',
+  'mythic-gold': 'fantasy',
+
+  // Cinematic
+  'film-noir': 'cinematic',
+  'sci-fi-future': 'cinematic',
+  'western-sunset': 'cinematic',
+  'horror': 'cinematic',
+  'romantic-drama': 'cinematic',
+  'action-hero': 'cinematic',
+  'mystery-thriller': 'cinematic',
+  'fantasy-epic': 'cinematic',
+
+  // Holographic & Futuristic
+  'hologram': 'futuristic',
+  'chrome': 'futuristic',
+  'neon-grid': 'futuristic',
+  'quantum': 'futuristic',
+  'laser-beam': 'futuristic',
+  'digital-rain': 'futuristic',
+  'plasma': 'futuristic',
+  'ai-core': 'futuristic',
+
+  // Wellness & Zen
+  'zen-garden': 'wellness',
+  'meditation': 'wellness',
+  'spa-retreat': 'wellness',
+  'yoga-flow': 'wellness',
+  'bamboo-forest': 'wellness',
+  'himalayan-salt': 'wellness',
+  'aromatherapy': 'wellness',
+  'mindfulness': 'wellness',
+
+  // Industrial
+  'factory': 'industrial',
+  'steel-mill': 'industrial',
+  'urban-decay': 'industrial',
+  'construction': 'industrial',
+  'machinery': 'industrial',
+  'blueprint': 'industrial',
+
+  // Neon Cities
+  'neon-tokyo': 'neon',
+  'neon-seoul': 'neon',
+  'neon-miami': 'neon',
+  'neon-shanghai': 'neon',
+  'neon-vegas': 'neon',
+  'neon-berlin': 'neon',
+
+  // Abstract & Artistic
+  'kaleidoscope': 'artistic',
+  'watercolor': 'artistic',
+  'oil-painting': 'artistic',
+  'ink-wash': 'artistic',
+  'graffiti': 'artistic',
+  'stained-glass': 'artistic',
+  'mosaic': 'artistic',
+  'tie-dye': 'artistic'
+};
+
 export const themes = [
   // ========== ORIGINAL THEMES ==========
   {
