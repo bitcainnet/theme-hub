@@ -243,7 +243,7 @@ const analytics = {
 - foggy-morning (gray + white)
 
 **Creative Combinations:**
-- vaporwave (pink + cyan + purple)
+- neon-grid (pink + cyan + purple)
 - pop-art (red + yellow)
 - kaleidoscope (multi-color)
 - tie-dye (rainbow swirl)
