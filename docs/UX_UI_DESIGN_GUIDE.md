@@ -630,7 +630,7 @@ function AnimatedCard({ theme }) {
 // Primary Button
 <button style={{
   background: theme.tokens.primary,
-  color: theme.tokens.surface,
+  color: theme.tokens.text,
   border: 'none',
   padding: '12px 24px',
   borderRadius: '8px'
