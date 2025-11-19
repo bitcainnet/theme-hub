@@ -511,9 +511,9 @@ function getResponsiveTheme() {
 ### Desktop Applications
 
 **Best Themes:**
-- Code Editors: dracula, monokai, nord, one-dark, solarized-dark
+- Code Editors: midnight, obsidian, digital-rain, noir
 - Productivity: corporate-blue, slate-professional, minimalist-pro
-- Creative: neon-nights, vaporwave, cyber-punk, abstract
+- Creative: neon-tokyo, neon-grid, abstract, pop-art
 
 **Window Management:**
 - Support native window controls
