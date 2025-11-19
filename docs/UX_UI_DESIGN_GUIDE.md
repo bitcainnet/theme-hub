@@ -119,7 +119,7 @@ Ask these questions:
 | **Developer Tools** | dracula, monokai, nord, terminal, matrix | Familiar to developers, low fatigue |
 | **Healthcare** | spa-retreat, meditation, zen-garden | Calming, trustworthy, professional |
 | **Financial Apps** | financial, executive, corporate-blue | Trust, stability, professionalism |
-| **Creative Tools** | neon-nights, vaporwave, pop-art, abstract | Inspiring, bold, creative freedom |
+| **Creative Tools** | neon-tokyo, neon-grid, pop-art, abstract, kaleidoscope | Inspiring, bold, creative freedom |
 | **Travel Booking** | tokyo-nights, santorini, bali-beach | Aspirational, exciting, wanderlust |
 | **Food Delivery** | matcha, espresso, strawberry, lime | Appetizing, fresh, energetic |
 | **Music Streaming** | lofi-chill, jazz-club, edm-rave | Genre-specific atmosphere |
