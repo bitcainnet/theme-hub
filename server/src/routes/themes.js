@@ -180,7 +180,7 @@ const getThemeCategory = (themeId) => {
 
 // Get all themes with optional filtering
 router.get("/", (req, res) => {
-  const { category, search, tag } = req.query;
+  const { category, search } = req.query;
   let filteredThemes = themes;
 
   // Filter by category
