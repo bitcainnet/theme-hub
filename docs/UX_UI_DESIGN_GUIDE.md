@@ -798,19 +798,19 @@ const campaignThemes = {
 ```javascript
 // Language-specific themes
 const languageThemes = {
-  javascript: 'monokai',
-  python: 'solarized-dark',
-  rust: 'rust', // Appropriate!
-  go: 'nord',
-  typescript: 'dracula'
+  javascript: 'digital-rain',
+  python: 'ai-core',
+  rust: 'factory',
+  go: 'blueprint',
+  typescript: 'quantum'
 };
 
 // Context-aware switching
 const contextThemes = {
-  coding: 'one-dark',
-  debugging: 'terminal',
-  reviewing: 'github-dark',
-  documentation: 'solarized-light'
+  coding: 'midnight',
+  debugging: 'noir',
+  reviewing: 'obsidian',
+  documentation: 'daylight'
 };
 ```
 
