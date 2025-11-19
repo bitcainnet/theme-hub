@@ -180,7 +180,7 @@ const getThemeCategory = (themeId) => {
 
 // Get all themes with optional filtering
 router.get("/", (req, res) => {
-  const { category, search, tag } = req.query;
+  const { category, search } = req.query;
   let filteredThemes = themes;
 
   // Filter by category
@@ -195,7 +195,7 @@ router.get("/", (req, res) => {
     const query = search.toLowerCase();
     filteredThemes = filteredThemes.filter(theme =>
       theme.name.toLowerCase().includes(query) ||
-      theme.description.toLowerCase().includes(query) ||
+      (theme.description && theme.description.toLowerCase().includes(query)) ||
       theme.id.toLowerCase().includes(query)
     );
   }

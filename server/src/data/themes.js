@@ -2734,7 +2734,7 @@ export const themes = [
     tokens: {
       primary: "#ec4899",
       accent: "#06b6d4",
-      background: "#ec4899",
+      background: "#0a0a0a",
       surface: "#db2777",
       text: "#ffffff",
       border: "#f472b6"
