@@ -1169,6 +1169,1744 @@ export const themes = [
       border: "#fca5a5"
     },
     assetsUrl: "/themes/coral-reef"
+  },
+
+  // ========== SPACE & ASTRONOMY THEMES ==========
+  {
+    id: "nebula",
+    name: "Nebula",
+    description: "Cosmic nebula with purple, pink, and blue star dust.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#ec4899",
+      background: "#0f0a1e",
+      surface: "#1e1b4b",
+      text: "#e9d5ff",
+      border: "#a78bfa"
+    },
+    assetsUrl: "/themes/nebula"
+  },
+  {
+    id: "supernova",
+    name: "Supernova",
+    description: "Explosive energy of a supernova with bright oranges and yellows.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ea580c",
+      accent: "#facc15",
+      background: "#1c1917",
+      surface: "#44403c",
+      text: "#fef3c7",
+      border: "#fb923c"
+    },
+    assetsUrl: "/themes/supernova"
+  },
+  {
+    id: "galaxy",
+    name: "Galaxy",
+    description: "Spiral galaxy with deep space blues and purples.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#4c1d95",
+      accent: "#3b82f6",
+      background: "#050318",
+      surface: "#1e1b4b",
+      text: "#ddd6fe",
+      border: "#6366f1"
+    },
+    assetsUrl: "/themes/galaxy"
+  },
+  {
+    id: "mars",
+    name: "Mars",
+    description: "Red planet surface with rusty orange tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#b91c1c",
+      accent: "#f97316",
+      background: "#7f1d1d",
+      surface: "#991b1b",
+      text: "#fed7aa",
+      border: "#dc2626"
+    },
+    assetsUrl: "/themes/mars"
+  },
+  {
+    id: "lunar",
+    name: "Lunar",
+    description: "Moon surface with cool grays and soft whites.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#52525b",
+      accent: "#a1a1aa",
+      background: "#18181b",
+      surface: "#27272a",
+      text: "#f4f4f5",
+      border: "#71717a"
+    },
+    assetsUrl: "/themes/lunar"
+  },
+  {
+    id: "stellar",
+    name: "Stellar",
+    description: "Bright stars with golden and white brilliance.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#1e293b",
+      accent: "#fbbf24",
+      background: "#020617",
+      surface: "#0f172a",
+      text: "#fef3c7",
+      border: "#f59e0b"
+    },
+    assetsUrl: "/themes/stellar"
+  },
+  {
+    id: "cosmic-dust",
+    name: "Cosmic Dust",
+    description: "Shimmering cosmic dust with iridescent purples and teals.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#6366f1",
+      accent: "#14b8a6",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#e0f2fe",
+      border: "#8b5cf6"
+    },
+    assetsUrl: "/themes/cosmic-dust"
+  },
+  {
+    id: "black-hole",
+    name: "Black Hole",
+    description: "Event horizon with deep blacks and gravitational lensing blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#000000",
+      accent: "#3b82f6",
+      background: "#000000",
+      surface: "#0a0a0a",
+      text: "#bfdbfe",
+      border: "#1e3a8a"
+    },
+    assetsUrl: "/themes/black-hole"
+  },
+  {
+    id: "andromeda",
+    name: "Andromeda",
+    description: "Andromeda galaxy with soft purples and blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#6d28d9",
+      accent: "#8b5cf6",
+      background: "#1e1b4b",
+      surface: "#312e81",
+      text: "#e9d5ff",
+      border: "#a78bfa"
+    },
+    assetsUrl: "/themes/andromeda"
+  },
+  {
+    id: "solar-flare",
+    name: "Solar Flare",
+    description: "Intense solar flare energy with bright yellows and oranges.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#f59e0b",
+      accent: "#ef4444",
+      background: "#78350f",
+      surface: "#92400e",
+      text: "#fef3c7",
+      border: "#fb923c"
+    },
+    assetsUrl: "/themes/solar-flare"
+  },
+
+  // ========== GAMING & ESPORTS THEMES ==========
+  {
+    id: "esports-purple",
+    name: "Esports Purple",
+    description: "High-energy purple for competitive gaming.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#a855f7",
+      background: "#18181b",
+      surface: "#27272a",
+      text: "#f3e8ff",
+      border: "#c084fc"
+    },
+    assetsUrl: "/themes/esports-purple"
+  },
+  {
+    id: "victory-gold",
+    name: "Victory Gold",
+    description: "Championship gold for winners.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ca8a04",
+      accent: "#fbbf24",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#fef3c7",
+      border: "#facc15"
+    },
+    assetsUrl: "/themes/victory-gold"
+  },
+  {
+    id: "arena",
+    name: "Arena",
+    description: "Battle arena with intense red and black.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#dc2626",
+      accent: "#ef4444",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#fecaca",
+      border: "#f87171"
+    },
+    assetsUrl: "/themes/arena"
+  },
+  {
+    id: "pixel-art",
+    name: "Pixel Art",
+    description: "Retro pixel game aesthetic with vibrant colors.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0891b2",
+      accent: "#f97316",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#e0f2fe",
+      border: "#06b6d4"
+    },
+    assetsUrl: "/themes/pixel-art"
+  },
+  {
+    id: "power-up",
+    name: "Power Up",
+    description: "Electric energy with cyan and yellow power-ups.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#06b6d4",
+      accent: "#eab308",
+      background: "#0c4a6e",
+      surface: "#075985",
+      text: "#f0f9ff",
+      border: "#22d3ee"
+    },
+    assetsUrl: "/themes/power-up"
+  },
+  {
+    id: "boss-battle",
+    name: "Boss Battle",
+    description: "Epic boss fight with dark reds and purples.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#9f1239",
+      accent: "#a855f7",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#fce7f3",
+      border: "#e11d48"
+    },
+    assetsUrl: "/themes/boss-battle"
+  },
+  {
+    id: "speedrun",
+    name: "Speedrun",
+    description: "Fast-paced speedrun with electric blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0284c7",
+      accent: "#06b6d4",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#bae6fd",
+      border: "#38bdf8"
+    },
+    assetsUrl: "/themes/speedrun"
+  },
+  {
+    id: "achievement",
+    name: "Achievement",
+    description: "Unlocked achievement with trophy gold.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#b45309",
+      accent: "#fbbf24",
+      background: "#451a03",
+      surface: "#78350f",
+      text: "#fef3c7",
+      border: "#f59e0b"
+    },
+    assetsUrl: "/themes/achievement"
+  },
+
+  // ========== FOOD & BEVERAGE THEMES ==========
+  {
+    id: "matcha",
+    name: "Matcha",
+    description: "Smooth matcha green tea tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#15803d",
+      accent: "#84cc16",
+      background: "#f0fdf4",
+      surface: "#dcfce7",
+      text: "#14532d",
+      border: "#4ade80"
+    },
+    assetsUrl: "/themes/matcha"
+  },
+  {
+    id: "espresso",
+    name: "Espresso",
+    description: "Rich espresso with creamy highlights.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#451a03",
+      accent: "#d97706",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#fed7aa",
+      border: "#92400e"
+    },
+    assetsUrl: "/themes/espresso"
+  },
+  {
+    id: "blueberry",
+    name: "Blueberry",
+    description: "Fresh blueberry with deep purple blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#3730a3",
+      accent: "#6366f1",
+      background: "#eef2ff",
+      surface: "#e0e7ff",
+      text: "#312e81",
+      border: "#818cf8"
+    },
+    assetsUrl: "/themes/blueberry"
+  },
+  {
+    id: "strawberry",
+    name: "Strawberry",
+    description: "Sweet strawberry pink and red.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#e11d48",
+      accent: "#fb7185",
+      background: "#fff1f2",
+      surface: "#ffe4e6",
+      text: "#881337",
+      border: "#fda4af"
+    },
+    assetsUrl: "/themes/strawberry"
+  },
+  {
+    id: "lime",
+    name: "Lime",
+    description: "Zesty lime green with citrus energy.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#65a30d",
+      accent: "#84cc16",
+      background: "#f7fee7",
+      surface: "#ecfccb",
+      text: "#3f6212",
+      border: "#a3e635"
+    },
+    assetsUrl: "/themes/lime"
+  },
+  {
+    id: "chocolate",
+    name: "Chocolate",
+    description: "Rich dark chocolate tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#44403c",
+      accent: "#78350f",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#fef3c7",
+      border: "#57534e"
+    },
+    assetsUrl: "/themes/chocolate"
+  },
+  {
+    id: "bubblegum",
+    name: "Bubblegum",
+    description: "Playful bubblegum pink.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ec4899",
+      accent: "#f472b6",
+      background: "#fdf2f8",
+      surface: "#fce7f3",
+      text: "#831843",
+      border: "#f9a8d4"
+    },
+    assetsUrl: "/themes/bubblegum"
+  },
+  {
+    id: "mojito",
+    name: "Mojito",
+    description: "Refreshing mojito with mint and lime.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#10b981",
+      accent: "#84cc16",
+      background: "#ecfdf5",
+      surface: "#d1fae5",
+      text: "#065f46",
+      border: "#34d399"
+    },
+    assetsUrl: "/themes/mojito"
+  },
+
+  // ========== ART MOVEMENTS THEMES ==========
+  {
+    id: "impressionist",
+    name: "Impressionist",
+    description: "Soft, dreamy colors of impressionist paintings.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#f472b6",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#581c87",
+      border: "#c4b5fd"
+    },
+    assetsUrl: "/themes/impressionist"
+  },
+  {
+    id: "pop-art",
+    name: "Pop Art",
+    description: "Bold, vibrant pop art colors like Warhol and Lichtenstein.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#dc2626",
+      accent: "#eab308",
+      background: "#fef2f2",
+      surface: "#fee2e2",
+      text: "#7f1d1d",
+      border: "#fca5a5"
+    },
+    assetsUrl: "/themes/pop-art"
+  },
+  {
+    id: "art-deco",
+    name: "Art Deco",
+    description: "Elegant art deco with gold and black.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0a0a0a",
+      accent: "#f59e0b",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#fef3c7",
+      border: "#d97706"
+    },
+    assetsUrl: "/themes/art-deco"
+  },
+  {
+    id: "abstract",
+    name: "Abstract",
+    description: "Bold abstract expressionism with mixed colors.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#f97316",
+      background: "#1e1b4b",
+      surface: "#312e81",
+      text: "#e9d5ff",
+      border: "#a78bfa"
+    },
+    assetsUrl: "/themes/abstract"
+  },
+  {
+    id: "renaissance",
+    name: "Renaissance",
+    description: "Classical renaissance with warm earth tones and gold.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#78350f",
+      accent: "#ca8a04",
+      background: "#fef3c7",
+      surface: "#fde68a",
+      text: "#451a03",
+      border: "#f59e0b"
+    },
+    assetsUrl: "/themes/renaissance"
+  },
+  {
+    id: "minimalism",
+    name: "Minimalism",
+    description: "Pure minimalist aesthetic with essential elements only.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#18181b",
+      accent: "#27272a",
+      background: "#ffffff",
+      surface: "#fafafa",
+      text: "#09090b",
+      border: "#e4e4e7"
+    },
+    assetsUrl: "/themes/minimalism"
+  },
+  {
+    id: "cubism",
+    name: "Cubism",
+    description: "Geometric cubist palette with angular color blocks.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0c4a6e",
+      accent: "#ea580c",
+      background: "#f0f9ff",
+      surface: "#e0f2fe",
+      text: "#082f49",
+      border: "#7dd3fc"
+    },
+    assetsUrl: "/themes/cubism"
+  },
+  {
+    id: "surrealism",
+    name: "Surrealism",
+    description: "Dreamlike surrealist colors from Dalí and Magritte.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#6d28d9",
+      accent: "#22d3ee",
+      background: "#1e1b4b",
+      surface: "#312e81",
+      text: "#e0f2fe",
+      border: "#8b5cf6"
+    },
+    assetsUrl: "/themes/surrealism"
+  },
+
+  // ========== CITIES & DESTINATIONS THEMES ==========
+  {
+    id: "tokyo-nights",
+    name: "Tokyo Nights",
+    description: "Neon-lit Tokyo streets with pink and blue.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ec4899",
+      accent: "#06b6d4",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#fce7f3",
+      border: "#f472b6"
+    },
+    assetsUrl: "/themes/tokyo-nights"
+  },
+  {
+    id: "paris-cafe",
+    name: "Paris Café",
+    description: "Charming Parisian café with warm creams and browns.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#78350f",
+      accent: "#d97706",
+      background: "#fef3c7",
+      surface: "#fde68a",
+      text: "#451a03",
+      border: "#fbbf24"
+    },
+    assetsUrl: "/themes/paris-cafe"
+  },
+  {
+    id: "sahara-sunset",
+    name: "Sahara Sunset",
+    description: "Golden Sahara desert at sunset.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ea580c",
+      accent: "#fbbf24",
+      background: "#7c2d12",
+      surface: "#9a3412",
+      text: "#ffedd5",
+      border: "#fb923c"
+    },
+    assetsUrl: "/themes/sahara-sunset"
+  },
+  {
+    id: "nordic-frost",
+    name: "Nordic Frost",
+    description: "Cool Scandinavian minimalism with icy blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0c4a6e",
+      accent: "#38bdf8",
+      background: "#f0f9ff",
+      surface: "#e0f2fe",
+      text: "#0369a1",
+      border: "#7dd3fc"
+    },
+    assetsUrl: "/themes/nordic-frost"
+  },
+  {
+    id: "bali-beach",
+    name: "Bali Beach",
+    description: "Tropical Bali beach with turquoise and sand.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0891b2",
+      accent: "#facc15",
+      background: "#ecfeff",
+      surface: "#cffafe",
+      text: "#164e63",
+      border: "#67e8f9"
+    },
+    assetsUrl: "/themes/bali-beach"
+  },
+  {
+    id: "manhattan",
+    name: "Manhattan",
+    description: "Urban New York with sophisticated grays and blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#1e3a8a",
+      accent: "#3b82f6",
+      background: "#f8fafc",
+      surface: "#f1f5f9",
+      text: "#0f172a",
+      border: "#cbd5e1"
+    },
+    assetsUrl: "/themes/manhattan"
+  },
+  {
+    id: "santorini",
+    name: "Santorini",
+    description: "Greek island whites and brilliant blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0284c7",
+      accent: "#0ea5e9",
+      background: "#ffffff",
+      surface: "#f0f9ff",
+      text: "#075985",
+      border: "#7dd3fc"
+    },
+    assetsUrl: "/themes/santorini"
+  },
+  {
+    id: "moroccan-spice",
+    name: "Moroccan Spice",
+    description: "Rich Moroccan marketplace with spice colors.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#b91c1c",
+      accent: "#f59e0b",
+      background: "#7f1d1d",
+      surface: "#991b1b",
+      text: "#fed7aa",
+      border: "#dc2626"
+    },
+    assetsUrl: "/themes/moroccan-spice"
+  },
+  {
+    id: "venice-canal",
+    name: "Venice Canal",
+    description: "Romantic Venice with aqua canals and warm stone.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0891b2",
+      accent: "#f97316",
+      background: "#ecfeff",
+      surface: "#cffafe",
+      text: "#164e63",
+      border: "#22d3ee"
+    },
+    assetsUrl: "/themes/venice-canal"
+  },
+  {
+    id: "iceland",
+    name: "Iceland",
+    description: "Icelandic landscape with volcanic black and ice blue.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0c4a6e",
+      accent: "#06b6d4",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#e0f2fe",
+      border: "#0891b2"
+    },
+    assetsUrl: "/themes/iceland"
+  },
+
+  // ========== MUSIC GENRES THEMES ==========
+  {
+    id: "jazz-club",
+    name: "Jazz Club",
+    description: "Smoky jazz club with deep blues and golds.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#1e3a8a",
+      accent: "#f59e0b",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#dbeafe",
+      border: "#3b82f6"
+    },
+    assetsUrl: "/themes/jazz-club"
+  },
+  {
+    id: "rock-concert",
+    name: "Rock Concert",
+    description: "Electric rock concert with intense reds and blacks.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#dc2626",
+      accent: "#a3a3a3",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#fafafa",
+      border: "#ef4444"
+    },
+    assetsUrl: "/themes/rock-concert"
+  },
+  {
+    id: "classical-symphony",
+    name: "Classical Symphony",
+    description: "Elegant symphony hall with rich burgundy and gold.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#881337",
+      accent: "#ca8a04",
+      background: "#fdf2f8",
+      surface: "#fce7f3",
+      text: "#4c0519",
+      border: "#fb7185"
+    },
+    assetsUrl: "/themes/classical-symphony"
+  },
+  {
+    id: "edm-rave",
+    name: "EDM Rave",
+    description: "Electric dance music with neon rainbow colors.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#a855f7",
+      accent: "#22d3ee",
+      background: "#0a0a0a",
+      surface: "#18181b",
+      text: "#fde047",
+      border: "#ec4899"
+    },
+    assetsUrl: "/themes/edm-rave"
+  },
+  {
+    id: "reggae-vibes",
+    name: "Reggae Vibes",
+    description: "Laid-back reggae with green, yellow, and red.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#15803d",
+      accent: "#eab308",
+      background: "#14532d",
+      surface: "#166534",
+      text: "#fef3c7",
+      border: "#22c55e"
+    },
+    assetsUrl: "/themes/reggae-vibes"
+  },
+  {
+    id: "lofi-chill",
+    name: "Lo-Fi Chill",
+    description: "Relaxing lo-fi study vibes with soft pastels.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#f472b6",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#581c87",
+      border: "#c4b5fd"
+    },
+    assetsUrl: "/themes/lofi-chill"
+  },
+  {
+    id: "hip-hop",
+    name: "Hip Hop",
+    description: "Urban hip-hop with bold gold and black.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0a0a0a",
+      accent: "#fbbf24",
+      background: "#18181b",
+      surface: "#27272a",
+      text: "#fef3c7",
+      border: "#f59e0b"
+    },
+    assetsUrl: "/themes/hip-hop"
+  },
+  {
+    id: "blues",
+    name: "Blues",
+    description: "Deep blues music with melancholic indigo tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#1e3a8a",
+      accent: "#60a5fa",
+      background: "#172554",
+      surface: "#1e3a8a",
+      text: "#dbeafe",
+      border: "#3b82f6"
+    },
+    assetsUrl: "/themes/blues"
+  },
+
+  // ========== WEATHER & CLIMATE THEMES ==========
+  {
+    id: "thunderstorm",
+    name: "Thunderstorm",
+    description: "Dramatic thunderstorm with dark grays and electric blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#334155",
+      accent: "#3b82f6",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#e2e8f0",
+      border: "#475569"
+    },
+    assetsUrl: "/themes/thunderstorm"
+  },
+  {
+    id: "rainbow",
+    name: "Rainbow",
+    description: "Vibrant rainbow after the rain with multi-color accents.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#ec4899",
+      background: "#f0f9ff",
+      surface: "#e0f2fe",
+      text: "#581c87",
+      border: "#a78bfa"
+    },
+    assetsUrl: "/themes/rainbow"
+  },
+  {
+    id: "foggy-morning",
+    name: "Foggy Morning",
+    description: "Misty morning with soft grays and muted tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#64748b",
+      accent: "#94a3b8",
+      background: "#f8fafc",
+      surface: "#f1f5f9",
+      text: "#1e293b",
+      border: "#cbd5e1"
+    },
+    assetsUrl: "/themes/foggy-morning"
+  },
+  {
+    id: "sunny-day",
+    name: "Sunny Day",
+    description: "Bright sunny day with warm yellows and oranges.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#f59e0b",
+      accent: "#fbbf24",
+      background: "#fffbeb",
+      surface: "#fef3c7",
+      text: "#78350f",
+      border: "#fcd34d"
+    },
+    assetsUrl: "/themes/sunny-day"
+  },
+  {
+    id: "northern-lights",
+    name: "Northern Lights",
+    description: "Aurora borealis with green, blue, and purple.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#059669",
+      accent: "#8b5cf6",
+      background: "#064e3b",
+      surface: "#065f46",
+      text: "#d1fae5",
+      border: "#10b981"
+    },
+    assetsUrl: "/themes/northern-lights"
+  },
+  {
+    id: "hurricane",
+    name: "Hurricane",
+    description: "Powerful hurricane with swirling grays and deep blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#1e40af",
+      accent: "#475569",
+      background: "#0c4a6e",
+      surface: "#075985",
+      text: "#e0f2fe",
+      border: "#0284c7"
+    },
+    assetsUrl: "/themes/hurricane"
+  },
+  {
+    id: "drought",
+    name: "Drought",
+    description: "Dry desert drought with parched earth tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#92400e",
+      accent: "#d97706",
+      background: "#78350f",
+      surface: "#92400e",
+      text: "#fef3c7",
+      border: "#b45309"
+    },
+    assetsUrl: "/themes/drought"
+  },
+  {
+    id: "blizzard",
+    name: "Blizzard",
+    description: "Intense blizzard with icy whites and cold blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0369a1",
+      accent: "#bae6fd",
+      background: "#f0f9ff",
+      surface: "#e0f2fe",
+      text: "#0c4a6e",
+      border: "#7dd3fc"
+    },
+    assetsUrl: "/themes/blizzard"
+  },
+
+  // ========== FANTASY & RPG THEMES ==========
+  {
+    id: "dragon-fire",
+    name: "Dragon Fire",
+    description: "Fierce dragon fire with red and orange flames.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#dc2626",
+      accent: "#f97316",
+      background: "#7f1d1d",
+      surface: "#991b1b",
+      text: "#fed7aa",
+      border: "#ef4444"
+    },
+    assetsUrl: "/themes/dragon-fire"
+  },
+  {
+    id: "elven-forest",
+    name: "Elven Forest",
+    description: "Mystical elven forest with ethereal greens.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#15803d",
+      accent: "#84cc16",
+      background: "#052e16",
+      surface: "#14532d",
+      text: "#dcfce7",
+      border: "#22c55e"
+    },
+    assetsUrl: "/themes/elven-forest"
+  },
+  {
+    id: "wizard-tower",
+    name: "Wizard Tower",
+    description: "Magical wizard tower with arcane purples and blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#6d28d9",
+      accent: "#3b82f6",
+      background: "#1e1b4b",
+      surface: "#312e81",
+      text: "#e9d5ff",
+      border: "#8b5cf6"
+    },
+    assetsUrl: "/themes/wizard-tower"
+  },
+  {
+    id: "dark-dungeon",
+    name: "Dark Dungeon",
+    description: "Ominous dungeon depths with stone grays and torch fire.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#44403c",
+      accent: "#f97316",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#e7e5e4",
+      border: "#57534e"
+    },
+    assetsUrl: "/themes/dark-dungeon"
+  },
+  {
+    id: "holy-paladin",
+    name: "Holy Paladin",
+    description: "Divine holy magic with gold and white radiance.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ca8a04",
+      accent: "#fbbf24",
+      background: "#ffffff",
+      surface: "#fef3c7",
+      text: "#78350f",
+      border: "#f59e0b"
+    },
+    assetsUrl: "/themes/holy-paladin"
+  },
+  {
+    id: "necromancer",
+    name: "Necromancer",
+    description: "Dark necromancy with death greens and blacks.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#064e3b",
+      accent: "#10b981",
+      background: "#000000",
+      surface: "#1c1917",
+      text: "#d1fae5",
+      border: "#059669"
+    },
+    assetsUrl: "/themes/necromancer"
+  },
+  {
+    id: "enchanted-crystal",
+    name: "Enchanted Crystal",
+    description: "Magical crystals with iridescent purples and teals.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#14b8a6",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#581c87",
+      border: "#c4b5fd"
+    },
+    assetsUrl: "/themes/enchanted-crystal"
+  },
+  {
+    id: "royal-castle",
+    name: "Royal Castle",
+    description: "Regal castle with royal purples and gold.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#581c87",
+      accent: "#f59e0b",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#4c1d95",
+      border: "#a78bfa"
+    },
+    assetsUrl: "/themes/royal-castle"
+  },
+  {
+    id: "shadow-realm",
+    name: "Shadow Realm",
+    description: "Mysterious shadow realm with deep purples and blacks.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#1e1b4b",
+      accent: "#6d28d9",
+      background: "#0a0a0a",
+      surface: "#18181b",
+      text: "#e9d5ff",
+      border: "#4c1d95"
+    },
+    assetsUrl: "/themes/shadow-realm"
+  },
+  {
+    id: "mythic-gold",
+    name: "Mythic Gold",
+    description: "Legendary mythic items with brilliant gold.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#b45309",
+      accent: "#fbbf24",
+      background: "#451a03",
+      surface: "#78350f",
+      text: "#fef3c7",
+      border: "#f59e0b"
+    },
+    assetsUrl: "/themes/mythic-gold"
+  },
+
+  // ========== CINEMATIC THEMES ==========
+  {
+    id: "film-noir",
+    name: "Film Noir",
+    description: "Classic noir cinema with high contrast black and white.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0a0a0a",
+      accent: "#a3a3a3",
+      background: "#000000",
+      surface: "#1c1917",
+      text: "#fafafa",
+      border: "#404040"
+    },
+    assetsUrl: "/themes/film-noir"
+  },
+  {
+    id: "sci-fi-future",
+    name: "Sci-Fi Future",
+    description: "Futuristic sci-fi with electric blues and teals.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0891b2",
+      accent: "#06b6d4",
+      background: "#0c4a6e",
+      surface: "#075985",
+      text: "#cffafe",
+      border: "#22d3ee"
+    },
+    assetsUrl: "/themes/sci-fi-future"
+  },
+  {
+    id: "western-sunset",
+    name: "Western Sunset",
+    description: "Wild west sunset with warm desert tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#c2410c",
+      accent: "#f59e0b",
+      background: "#7c2d12",
+      surface: "#9a3412",
+      text: "#ffedd5",
+      border: "#ea580c"
+    },
+    assetsUrl: "/themes/western-sunset"
+  },
+  {
+    id: "horror",
+    name: "Horror",
+    description: "Terrifying horror with blood red and dark shadows.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7f1d1d",
+      accent: "#dc2626",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#fecaca",
+      border: "#991b1b"
+    },
+    assetsUrl: "/themes/horror"
+  },
+  {
+    id: "romantic-drama",
+    name: "Romantic Drama",
+    description: "Romantic film with soft pinks and warm tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#be185d",
+      accent: "#f472b6",
+      background: "#fff1f2",
+      surface: "#ffe4e6",
+      text: "#831843",
+      border: "#fda4af"
+    },
+    assetsUrl: "/themes/romantic-drama"
+  },
+  {
+    id: "action-hero",
+    name: "Action Hero",
+    description: "Explosive action with intense reds and oranges.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#dc2626",
+      accent: "#f97316",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#fed7aa",
+      border: "#ef4444"
+    },
+    assetsUrl: "/themes/action-hero"
+  },
+  {
+    id: "mystery-thriller",
+    name: "Mystery Thriller",
+    description: "Suspenseful mystery with deep blues and shadows.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#1e3a8a",
+      accent: "#475569",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#dbeafe",
+      border: "#334155"
+    },
+    assetsUrl: "/themes/mystery-thriller"
+  },
+  {
+    id: "fantasy-epic",
+    name: "Fantasy Epic",
+    description: "Grand fantasy epic with rich purples and golds.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#6d28d9",
+      accent: "#f59e0b",
+      background: "#1e1b4b",
+      surface: "#312e81",
+      text: "#fef3c7",
+      border: "#a78bfa"
+    },
+    assetsUrl: "/themes/fantasy-epic"
+  },
+
+  // ========== HOLOGRAPHIC & FUTURISTIC THEMES ==========
+  {
+    id: "hologram",
+    name: "Hologram",
+    description: "Futuristic holographic projection with cyan and magenta.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#06b6d4",
+      accent: "#ec4899",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#cffafe",
+      border: "#22d3ee"
+    },
+    assetsUrl: "/themes/hologram"
+  },
+  {
+    id: "chrome",
+    name: "Chrome",
+    description: "Sleek chrome finish with metallic silvers.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#71717a",
+      accent: "#d4d4d8",
+      background: "#18181b",
+      surface: "#27272a",
+      text: "#fafafa",
+      border: "#a1a1aa"
+    },
+    assetsUrl: "/themes/chrome"
+  },
+  {
+    id: "neon-grid",
+    name: "Neon Grid",
+    description: "Retro-futuristic neon grid with pink and cyan lines.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ec4899",
+      accent: "#06b6d4",
+      background: "#0a0a0a",
+      surface: "#18181b",
+      text: "#fce7f3",
+      border: "#f472b6"
+    },
+    assetsUrl: "/themes/neon-grid"
+  },
+  {
+    id: "quantum",
+    name: "Quantum",
+    description: "Quantum computing with deep purples and electric blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#6d28d9",
+      accent: "#3b82f6",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#e9d5ff",
+      border: "#8b5cf6"
+    },
+    assetsUrl: "/themes/quantum"
+  },
+  {
+    id: "laser-beam",
+    name: "Laser Beam",
+    description: "Precision laser with bright red and white.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#dc2626",
+      accent: "#fafafa",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#fecaca",
+      border: "#ef4444"
+    },
+    assetsUrl: "/themes/laser-beam"
+  },
+  {
+    id: "digital-rain",
+    name: "Digital Rain",
+    description: "Cascading digital code like The Matrix.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#000000",
+      accent: "#22c55e",
+      background: "#000000",
+      surface: "#0a0a0a",
+      text: "#4ade80",
+      border: "#16a34a"
+    },
+    assetsUrl: "/themes/digital-rain"
+  },
+  {
+    id: "plasma",
+    name: "Plasma",
+    description: "Electric plasma energy with vibrant purples and pinks.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#a855f7",
+      accent: "#ec4899",
+      background: "#1e1b4b",
+      surface: "#312e81",
+      text: "#fce7f3",
+      border: "#c084fc"
+    },
+    assetsUrl: "/themes/plasma"
+  },
+  {
+    id: "ai-core",
+    name: "AI Core",
+    description: "Artificial intelligence core with glowing blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0284c7",
+      accent: "#38bdf8",
+      background: "#0c4a6e",
+      surface: "#075985",
+      text: "#e0f2fe",
+      border: "#0ea5e9"
+    },
+    assetsUrl: "/themes/ai-core"
+  },
+
+  // ========== WELLNESS & ZEN THEMES ==========
+  {
+    id: "zen-garden",
+    name: "Zen Garden",
+    description: "Peaceful zen garden with natural greens and stones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#65a30d",
+      accent: "#84cc16",
+      background: "#f7fee7",
+      surface: "#ecfccb",
+      text: "#3f6212",
+      border: "#a3e635"
+    },
+    assetsUrl: "/themes/zen-garden"
+  },
+  {
+    id: "meditation",
+    name: "Meditation",
+    description: "Calming meditation with soft purples and blues.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#3b82f6",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#581c87",
+      border: "#c4b5fd"
+    },
+    assetsUrl: "/themes/meditation"
+  },
+  {
+    id: "spa-retreat",
+    name: "Spa Retreat",
+    description: "Luxurious spa with calming aqua and white.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0891b2",
+      accent: "#14b8a6",
+      background: "#f0fdfa",
+      surface: "#ccfbf1",
+      text: "#134e4a",
+      border: "#5eead4"
+    },
+    assetsUrl: "/themes/spa-retreat"
+  },
+  {
+    id: "yoga-flow",
+    name: "Yoga Flow",
+    description: "Flowing yoga practice with gentle pastels.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ec4899",
+      accent: "#a78bfa",
+      background: "#fdf2f8",
+      surface: "#fce7f3",
+      text: "#831843",
+      border: "#f9a8d4"
+    },
+    assetsUrl: "/themes/yoga-flow"
+  },
+  {
+    id: "bamboo-forest",
+    name: "Bamboo Forest",
+    description: "Tranquil bamboo forest with natural greens.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#15803d",
+      accent: "#22c55e",
+      background: "#f0fdf4",
+      surface: "#dcfce7",
+      text: "#14532d",
+      border: "#86efac"
+    },
+    assetsUrl: "/themes/bamboo-forest"
+  },
+  {
+    id: "himalayan-salt",
+    name: "Himalayan Salt",
+    description: "Warm Himalayan salt lamp glow with pink and orange.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#db2777",
+      accent: "#fb923c",
+      background: "#fff1f2",
+      surface: "#ffe4e6",
+      text: "#881337",
+      border: "#fda4af"
+    },
+    assetsUrl: "/themes/himalayan-salt"
+  },
+  {
+    id: "aromatherapy",
+    name: "Aromatherapy",
+    description: "Soothing aromatherapy with lavender and eucalyptus.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#10b981",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#581c87",
+      border: "#c4b5fd"
+    },
+    assetsUrl: "/themes/aromatherapy"
+  },
+  {
+    id: "mindfulness",
+    name: "Mindfulness",
+    description: "Present moment awareness with calm earth tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#78350f",
+      accent: "#d97706",
+      background: "#fef3c7",
+      surface: "#fde68a",
+      text: "#451a03",
+      border: "#fbbf24"
+    },
+    assetsUrl: "/themes/mindfulness"
+  },
+
+  // ========== INDUSTRIAL THEMES ==========
+  {
+    id: "factory",
+    name: "Factory",
+    description: "Industrial factory with metal grays and yellows.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#52525b",
+      accent: "#eab308",
+      background: "#18181b",
+      surface: "#27272a",
+      text: "#fafafa",
+      border: "#71717a"
+    },
+    assetsUrl: "/themes/factory"
+  },
+  {
+    id: "steel-mill",
+    name: "Steel Mill",
+    description: "Heavy steel production with dark metals and orange heat.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#44403c",
+      accent: "#f97316",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#e7e5e4",
+      border: "#57534e"
+    },
+    assetsUrl: "/themes/steel-mill"
+  },
+  {
+    id: "urban-decay",
+    name: "Urban Decay",
+    description: "Gritty urban decay with rust and concrete.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#57534e",
+      accent: "#b91c1c",
+      background: "#292524",
+      surface: "#44403c",
+      text: "#e7e5e4",
+      border: "#78716c"
+    },
+    assetsUrl: "/themes/urban-decay"
+  },
+  {
+    id: "construction",
+    name: "Construction",
+    description: "Construction site with safety orange and yellow.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ea580c",
+      accent: "#eab308",
+      background: "#1c1917",
+      surface: "#292524",
+      text: "#fef3c7",
+      border: "#f97316"
+    },
+    assetsUrl: "/themes/construction"
+  },
+  {
+    id: "machinery",
+    name: "Machinery",
+    description: "Heavy machinery with industrial blues and grays.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#475569",
+      accent: "#0284c7",
+      background: "#1e293b",
+      surface: "#334155",
+      text: "#e2e8f0",
+      border: "#64748b"
+    },
+    assetsUrl: "/themes/machinery"
+  },
+  {
+    id: "blueprint",
+    name: "Blueprint",
+    description: "Technical blueprint with classic blue and white lines.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#1e3a8a",
+      accent: "#ffffff",
+      background: "#1e40af",
+      surface: "#1e3a8a",
+      text: "#ffffff",
+      border: "#60a5fa"
+    },
+    assetsUrl: "/themes/blueprint"
+  },
+
+  // ========== NEON CITY THEMES ==========
+  {
+    id: "neon-tokyo",
+    name: "Neon Tokyo",
+    description: "Electric Tokyo streets with vibrant pink and blue neon.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ec4899",
+      accent: "#06b6d4",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#fce7f3",
+      border: "#f472b6"
+    },
+    assetsUrl: "/themes/neon-tokyo"
+  },
+  {
+    id: "neon-seoul",
+    name: "Neon Seoul",
+    description: "Seoul nightlife with purple and green neon signs.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#a855f7",
+      accent: "#22c55e",
+      background: "#18181b",
+      surface: "#27272a",
+      text: "#f3e8ff",
+      border: "#c084fc"
+    },
+    assetsUrl: "/themes/neon-seoul"
+  },
+  {
+    id: "neon-miami",
+    name: "Neon Miami",
+    description: "Miami Vice with hot pink and cyan.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#ec4899",
+      accent: "#06b6d4",
+      background: "#ec4899",
+      surface: "#db2777",
+      text: "#ffffff",
+      border: "#f472b6"
+    },
+    assetsUrl: "/themes/neon-miami"
+  },
+  {
+    id: "neon-shanghai",
+    name: "Neon Shanghai",
+    description: "Shanghai skyline with red and gold neon.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#dc2626",
+      accent: "#fbbf24",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#fecaca",
+      border: "#ef4444"
+    },
+    assetsUrl: "/themes/neon-shanghai"
+  },
+  {
+    id: "neon-vegas",
+    name: "Neon Vegas",
+    description: "Las Vegas strip with multicolor casino lights.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#a855f7",
+      accent: "#fbbf24",
+      background: "#0a0a0a",
+      surface: "#18181b",
+      text: "#fde047",
+      border: "#c084fc"
+    },
+    assetsUrl: "/themes/neon-vegas"
+  },
+  {
+    id: "neon-berlin",
+    name: "Neon Berlin",
+    description: "Berlin techno scene with industrial blue and purple.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#6366f1",
+      accent: "#a855f7",
+      background: "#0f172a",
+      surface: "#1e293b",
+      text: "#e0e7ff",
+      border: "#818cf8"
+    },
+    assetsUrl: "/themes/neon-berlin"
+  },
+
+  // ========== ABSTRACT & ARTISTIC THEMES ==========
+  {
+    id: "kaleidoscope",
+    name: "Kaleidoscope",
+    description: "Colorful kaleidoscope with shifting rainbow patterns.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#ec4899",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#581c87",
+      border: "#c4b5fd"
+    },
+    assetsUrl: "/themes/kaleidoscope"
+  },
+  {
+    id: "watercolor",
+    name: "Watercolor",
+    description: "Soft watercolor painting with blended pastels.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#3b82f6",
+      accent: "#f472b6",
+      background: "#f0f9ff",
+      surface: "#e0f2fe",
+      text: "#075985",
+      border: "#7dd3fc"
+    },
+    assetsUrl: "/themes/watercolor"
+  },
+  {
+    id: "oil-painting",
+    name: "Oil Painting",
+    description: "Rich oil painting with deep, saturated colors.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c2d12",
+      accent: "#d97706",
+      background: "#78350f",
+      surface: "#92400e",
+      text: "#fef3c7",
+      border: "#b45309"
+    },
+    assetsUrl: "/themes/oil-painting"
+  },
+  {
+    id: "ink-wash",
+    name: "Ink Wash",
+    description: "Traditional Asian ink wash painting with blacks and grays.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#18181b",
+      accent: "#52525b",
+      background: "#fafafa",
+      surface: "#f4f4f5",
+      text: "#09090b",
+      border: "#a1a1aa"
+    },
+    assetsUrl: "/themes/ink-wash"
+  },
+  {
+    id: "graffiti",
+    name: "Graffiti",
+    description: "Urban graffiti with bold spray paint colors.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#dc2626",
+      accent: "#eab308",
+      background: "#0a0a0a",
+      surface: "#1c1917",
+      text: "#fbbf24",
+      border: "#ef4444"
+    },
+    assetsUrl: "/themes/graffiti"
+  },
+  {
+    id: "stained-glass",
+    name: "Stained Glass",
+    description: "Cathedral stained glass with jewel tones.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#7c3aed",
+      accent: "#dc2626",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#581c87",
+      border: "#c4b5fd"
+    },
+    assetsUrl: "/themes/stained-glass"
+  },
+  {
+    id: "mosaic",
+    name: "Mosaic",
+    description: "Ancient mosaic tiles with Mediterranean colors.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#0284c7",
+      accent: "#f59e0b",
+      background: "#f0f9ff",
+      surface: "#e0f2fe",
+      text: "#075985",
+      border: "#7dd3fc"
+    },
+    assetsUrl: "/themes/mosaic"
+  },
+  {
+    id: "tie-dye",
+    name: "Tie Dye",
+    description: "Psychedelic tie-dye with swirling rainbow colors.",
+    version: "1.0.0",
+    tokens: {
+      primary: "#a855f7",
+      accent: "#22d3ee",
+      background: "#faf5ff",
+      surface: "#f3e8ff",
+      text: "#581c87",
+      border: "#c084fc"
+    },
+    assetsUrl: "/themes/tie-dye"
   }
 ];
 
