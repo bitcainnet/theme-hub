@@ -4,7 +4,14 @@ import { themeRouter } from "./routes/themes.js";
 
 const app = express();
 
-app.use(cors());
+// Configure CORS - use environment variable or allow all origins
+const corsOrigins = process.env.CORS_ORIGINS
+  ? process.env.CORS_ORIGINS.split(',').map(origin => origin.trim())
+  : '*';
+
+app.use(cors({
+  origin: corsOrigins === '*' ? '*' : corsOrigins
+}));
 app.use(express.json({ limit: "1mb" }));
 
 app.use("/api/themes", themeRouter);
